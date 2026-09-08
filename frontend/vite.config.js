@@ -1,5 +1,7 @@
 export default defineConfig({
   plugins: [react()],
+  base: '/College_Management_System/',
+
   server: {
     port: 5173,
     proxy: {
@@ -9,4 +11,4 @@ export default defineConfig({
       }
     }
   }
-});
+})
